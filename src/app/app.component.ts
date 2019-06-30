@@ -18,8 +18,8 @@ type Data = Datum[];
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements AfterViewInit {
-  readonly svgWidth = 600;
-  readonly svgHeight = 300;
+  readonly svgWidth = 480;
+  readonly svgHeight = 240;
 
   // svgのid属性にバインドするランダム値
   readonly svgId = `svg_${uuid.v4()}`;
@@ -105,7 +105,7 @@ export class AppComponent implements AfterViewInit {
     return d3.scaleBand()
       .domain(data.map(d => d.name))
       .range([this.svgMargin.left, this.svgWidth - this.svgMargin.right])
-      .padding(0.4);
+      .padding(0.35);
   }
 
   /**
