@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  color: dimgray;
+  font-family: "M PLUS 1p";
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+small {
+  font-size: 0.8em;
+}

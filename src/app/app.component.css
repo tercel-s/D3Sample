@@ -1,0 +1,24 @@
+.primaryBar {
+  fill: midnightblue;
+}
+
+.secondaryBar {
+  fill: gray;
+}
+
+.label {
+  padding: 1px;
+  font-size: 0.5em;
+}
+
+.primaryLabel {
+  color: floralwhite;
+}
+
+.secondaryLabel {
+  color: ghostwhite;
+}
+
+.axis path, .axis line{
+  stroke: gainsboro;
+}
